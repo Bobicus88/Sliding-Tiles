@@ -1,0 +1,46 @@
+<!--
+* FILE NAME: tile-game.html
+* AUTHORS: Adapted from original code by Professor Scott Anderson
+* DATE: 3/15/20
+* PURPOSE: CS204 assignment 5
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Original draft for CS 249 A5 by Grace Hu-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="tile-game.css" type="text/css" />
+</head>
+<body>
+
+<h1>The Wellesley Tile Slider Game</h1>
+
+<figure id="directions">
+    <button id="up">w &uarr; Up</button>
+    <button id="down">s &darr; Down</button>
+    <button id="left">a &larr; Left</button>
+    <button id="right">d &rarr; Right</button>
+</figure>
+    
+    <figure id="board">
+      <img id="a" src="tiles/a.jpeg" alt="tile-a">
+      <img id="b" src="tiles/b.jpeg" alt="tile-b">
+      <img id="c" src="tiles/c.jpeg" alt="tile-c">
+      <img id="d" src="tiles/d.jpeg" alt="tile-d">
+      <img id="e" src="tiles/e.jpeg" alt="tile-e">
+      <img id="f" src="tiles/f.jpeg" alt="tile-f">
+      <img id="g" src="tiles/g.jpeg" alt="tile-g">
+      <img id="h" src="tiles/h.jpeg" alt="tile-h">
+    </figure>
+
+<p>
+<button id="scrambleButton">Scramble Board (30 moves)</button>
+</p>        
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cs.wellesley.edu/~anderson/js/bounds/bounds-plugin.js"></script>
+<script src="tile-game.js"></script>
+</body>
+</html>
