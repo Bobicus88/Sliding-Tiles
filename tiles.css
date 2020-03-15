@@ -1,0 +1,67 @@
+/*
+* FILE NAME: tile-game.css
+* WRITTEN BY: Professor Anderson
+* DATE: 3/15/20
+* PURPOSE: CS204 assignment 5
+*/
+
+h1 {
+    font-family: Verdana;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+#directions, #board {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+	margin: 20px;
+}
+
+#directions {
+    height: 400px;
+    width: 300px;
+    font: 20px Verdana;
+}
+
+#directions button {
+    position: absolute;
+    width: 100px;
+}
+
+#up    { top: 0px; left: 100px; }
+
+#down  { top: 200px; left: 100px; }
+
+#left  { top: 100px; left: 0px; }
+
+#right { top: 100px; left: 200px; }
+
+#board {
+	height: 600px;
+	width: 600px;
+}
+
+/* give this property to all of the tile images */
+#board img {
+    position: absolute;
+}
+
+#a { left: 000px; top: 0px; }
+#b { left: 200px; top: 0px; }
+#c { left: 400px; top: 0px; }
+
+#d { left: 000px; top: 200px; }
+#e { left: 200px; top: 200px; }
+#f { left: 400px; top: 200px; }
+
+#g { left: 000px; top: 400px; }
+#h { left: 200px; top: 400px; }
+#blank { left: 400px; top: 400px; }
+
+#scrambleButton {
+    font: 20px Verdana;
+    padding: 1ex;
+    border: 1px solid blue;
+    border-radius: 0.5ex;
+}
