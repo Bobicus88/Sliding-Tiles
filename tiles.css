@@ -40,24 +40,25 @@ h1 {
 #board {
 	height: 600px;
 	width: 600px;
+    border: 1px solid;
 }
 
 /* give this property to all of the tile images */
-#board img {
+#board span {
     position: absolute;
 }
 
-#a { left: 000px; top: 0px; }
-#b { left: 200px; top: 0px; }
-#c { left: 400px; top: 0px; }
+#a { left: 100px; top: 100px; }
+#b { left: 300px; top: 100px; }
+#c { left: 500px; top: 100px; }
 
-#d { left: 000px; top: 200px; }
-#e { left: 200px; top: 200px; }
-#f { left: 400px; top: 200px; }
+#d { left: 100px; top: 300px; }
+#e { left: 300px; top: 300px; }
+#f { left: 500px; top: 300px; }
 
-#g { left: 000px; top: 400px; }
-#h { left: 200px; top: 400px; }
-#blank { left: 400px; top: 400px; }
+#g { left: 100px; top: 500px; }
+#h { left: 300px; top: 500px; }
+#blank { left: 500px; top: 500px; }
 
 #scrambleButton {
     font: 20px Verdana;
